@@ -1,0 +1,70 @@
+<DOCTYPE html>
+    <html lang="en">
+    
+        <head>
+            <meta charset="utf-8">
+            <title> CSS Selectors</title>
+    
+            <style>
+                section p{
+                    color: red;
+                }
+            
+            </style>
+    
+            <style>
+                h1+p{
+                    color: aqua;
+                }
+            </style>
+    
+            <style>
+              section>p{
+                 color: rgb(105, 52, 52);
+                }
+    
+            </style>
+    
+            <style>
+               h1~p{
+                  color: bisque;
+             }
+    
+            </style>
+    
+        </head>
+    
+    
+        <body>
+            <section>
+                <p>This is my first section - Decendent Selectors</p>
+            </section>
+            <section>
+                <h1>This is my second section</h1>
+            </section>
+            <section>
+                <p>This is my third section - Decendent Selectors</p>
+            </section>
+            <section> 
+                <h1> This and the following paragraph are adjecent siblings!</h1>
+                <p>This is adjecent to the header above</p>
+                <p>This is adjecent to the paragraph above, but not the header</p>
+            </section>
+            <section>
+                <p> This is a childl of a section</p>
+            </section>
+            <div>
+                <p>This is the child of a div</p>
+            </div>
+
+            <h1>Header</h1>
+            <p>This paragraph is an ajecent sibling headder</p>
+            <p>This paragraph is a sibling of the header</p>
+
+        </body>
+    
+    
+    
+    
+    
+    </html>
