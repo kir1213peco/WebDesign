@@ -1,0 +1,77 @@
+.p1 {
+    text-align: left;
+ }
+    
+    
+    .p2{
+        text-align: right;
+    }
+        
+
+    .p3{
+        text-align: justify;
+    }
+
+    
+    .p4{
+        vertical-align: sub;
+    }
+    .p5{			
+        vertical-align: super;
+    }
+
+    .p6{
+        vertical-align: top;
+    }
+    .p7{
+        vertical-align: text-top;
+        }
+    
+    .p8{
+    vertical-align: middle;
+        }
+
+    .p9{
+
+        vertical-align: bottom;
+    }
+        
+
+    
+    .p10{
+
+        vertical-align: text-bottom;
+
+    }
+
+
+    
+    .p11{
+
+        vertical-align: raise;
+
+    }
+
+
+    
+    .p12{
+
+        vertical-align: lower;
+
+    }
+
+
+    .p13{
+
+        vertical-align: 50%;
+        
+    }
+
+    .p14{
+        text-align: center;
+    }
+
+    .p15{
+        vertical-align: baseline;
+
+    }
